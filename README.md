@@ -18,3 +18,11 @@ An example is shown below, where the content image is of a cat, and the style im
 
 According to the paper, we extract feature maps after layer conv4_2 for content information. We calculate gram matrixes after layer conv1_1, conv2_1, conv3_1 and conv4_1 for style information.
 
+### Input
+This method can take any images as input. We use the two pictures below for content image and style image.
+<img src='https://i.imgur.com/mqwfKBL.png' width=80% />
+
+### Result
+We trained for 2000 epoches with Adam optimizer(lr=0.003).The result images after every 400 epoches is shown below:
+
+<img src='https://ppt.cc/fvZskx@.png' width=100% />
